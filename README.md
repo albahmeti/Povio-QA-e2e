@@ -17,7 +17,7 @@ How to run the project
 ----------------------
 
 - In order for it to run it requires Maven library
-- Download framwwork from https://github.com/albahmeti/Povio-QA-e2e/
+- Download framwwork from https://github.com/albahmeti/Povio-QA-e2e/tree/master
 - In order to execute the Step Definitions, the following should be written in terminal as maven goal:
         mvn verify -Dcucumber.options="--tags @smoke" ---> for smoke test
         mvn verify -Dcucumber.options="--tags @login" ---> to sign is as a user
